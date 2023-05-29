@@ -1,0 +1,53 @@
+@media screen and (max-width: 1120px) {
+    .aboutus__con {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .catalog {
+        flex-wrap: wrap;
+    }
+
+    .contact__block1 {
+        gap: 30px;
+    }
+
+    .contact__block1 h2{
+        font-size: 28px;
+    }
+    .contact__block1 p{
+        font-size: 18px;
+    }
+    .contact__block2 p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .menu__nav {
+        flex-direction: column;
+        gap: 40px;
+    }
+    .contact {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 580px) {
+    .banner__h1 {
+        font-size: 20px;
+        line-height: 0px;
+    }
+    .banner__p {
+        font-size: 14px;
+    }
+    .aboutus__img {
+        padding: 0px 40px;
+    }
+}
